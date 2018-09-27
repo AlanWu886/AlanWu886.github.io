@@ -3,7 +3,7 @@ angular.module('app', [
 	'app.controllers'
 ]).config(['$routeProvider', function($routeProvider){
 	$routeProvider.when('/', {
-		templateUrl: 'views/post.html',
+		template: 'Home',
 		controller: 'PostController'
 	}).when('/post/:id', {
 		templateUrl: 'views/singlepost.html',
