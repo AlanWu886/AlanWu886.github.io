@@ -1,1 +1,0 @@
-# A static angularjs based blog application.
