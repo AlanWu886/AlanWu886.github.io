@@ -1,0 +1,31 @@
+
+.blog_background {
+  background-color: #38a3ff;
+}
+
+#myVideo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 120%;
+    max-height: 120%;
+    object-fit: fill;
+    /* transform: scale(0.5); */
+}
+
+.headline {
+    position: fixed;
+    /* bottom: 0; */
+    background: rgba(0, 0, 0, 0.5);
+    color: #93c54b;
+    width: 100%;
+    padding: 20px;
+}
+
+.navi {
+   font-size: 20px;
+   padding: 10px;
+
+
+}
