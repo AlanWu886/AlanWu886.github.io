@@ -34,6 +34,7 @@
   height: 60px;
 
 
+
 }
 
 .navi-a>a:hover>span.icon {
@@ -51,6 +52,8 @@
   /* font-size: 20px; */
 
 }
+
+
 
 .navi-a>a>span.text {
   display: none;
