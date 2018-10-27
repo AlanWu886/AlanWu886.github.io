@@ -1,6 +1,6 @@
 
 .blog_background {
-  background-color: #38a3ff;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #myVideo {
@@ -14,18 +14,81 @@
     /* transform: scale(0.5); */
 }
 
-.headline {
+.content {
     position: fixed;
     /* bottom: 0; */
     background: rgba(0, 0, 0, 0.5);
-    color: #93c54b;
+    color: white;
     width: 100%;
-    padding: 20px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+
 }
 
 .navi {
-   font-size: 20px;
-   padding: 10px;
+  color: white;
+  /* font-size: 20px; */
+  /* padding: 10px; */
+  vertical-align: middle;
+  width: 80px;
+  height: 60px;
 
 
+}
+
+.navi-a>a:hover>span.icon {
+  display:none;
+}
+
+.navi-a>a:hover>span.text {
+  display: table-cell;
+  text-align: center;
+  /* vertical-align: middle; */
+  text-decoration: none;
+
+  width: 80px;
+  height: 60px;
+  /* font-size: 20px; */
+
+}
+
+.navi-a>a>span.text {
+  display: none;
+}
+
+.navi-a>a>span.icon {
+  font-size: 40px;
+  display: table-cell;
+  text-align: center;
+  width: 80px;
+  height: 60px;
+}
+
+/* .navi-a>a:hover:after {
+  content: 'test';
+} */
+
+
+
+.centered {
+  font-size: 20px;
+  color: white;
+  position:fixed;
+  z-index: 100;
+  top:60%;
+  left:50%;
+  margin: -100px 0 0 -300px;
+  width:600px;
+  height:250px;
+
+}
+
+.about {
+  font-size: 14px;
+  margin: 100px 50px 50px 50px;
+}
+
+.contact-btn {
+  font-size: 100px;
+  background-color: transparent;
 }

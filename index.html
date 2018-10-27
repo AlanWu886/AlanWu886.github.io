@@ -6,21 +6,26 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/hover.css">
 	</head>
-	<body style="padding-top: 10px;">
+	<body class="blog_background">
 		<video autoplay muted loop id="myVideo">
   		<source src="video_background\Particle_Wave_4K_Motion_Background_Loop.mp4" type="video/mp4">
 		</video>
 		<div class="content">
 			<navigationbar></navigationbar>
-			<div ng-view></div>
+			<div >
+				<div ng-view ></div>
+			</div>
+
 
 		</div>
 
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<script src="js/angular.js"></script>
+		<script src="js/angular.min.js"></script>
 		<script src="js/angular-route.js"></script>
+		<script src="js/ui-bootstrap-tpls-2.5.0.js"></script>
 		<script src="app/app.js"></script>
 		<script src="app/controllers.js"></script>
 		<script src="app/directives.js"></script>
