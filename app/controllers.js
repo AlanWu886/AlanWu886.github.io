@@ -41,8 +41,8 @@ angular.module('app.controllers', [
 				method: 'GET',
 				url: 'data/posts.json'
 		 }).then(function (response){
-			 $scope.pages = response[$routeParams.id];
-			 console.console.log($scope.pages);
+			 $scope.post = response.data[$routeParams.id];
+			 console.log($scope.post);
 		 });
 		// $http.get('data/posts.json').success(function(data){
 		// 	$scope.post = data[$routeParams.id];

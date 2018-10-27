@@ -1,6 +1,7 @@
 
 .blog_background {
   background: rgba(0, 0, 0, 0.3);
+  /* background-color: yellow; */
 }
 
 #myVideo {
@@ -21,8 +22,15 @@
     color: white;
     width: 100%;
     height: 100%;
-    padding: 0 20px 0 20px;
+    /* overflow-y: scroll; */
+    /* padding: 0 40px 0 40px; */
 
+}
+
+.inner-frame {
+  padding: 0px 40px 40px 40px ;
+  overflow-y: scroll;
+  height: calc(100vh - 100px);
 }
 
 .navi {
@@ -32,9 +40,10 @@
   vertical-align: middle;
   width: 80px;
   height: 60px;
+}
 
-
-
+a.a-color {
+  color: transparent;
 }
 
 .navi-a>a:hover>span.icon {
@@ -54,6 +63,13 @@
 }
 
 
+.portfolio-projects>a,  .portfolio-projects>h3>a{
+  color: white
+}
+
+/* .portfolio-projects>a:hover {
+  color: rgba(0, 0, 0, 0.3)
+} */
 
 .navi-a>a>span.text {
   display: none;

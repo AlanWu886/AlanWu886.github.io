@@ -1,1 +1,6 @@
-<h2 class="headline">My Portfolio</h2>
+<!-- <h2 class="headline">My Portfolio</h2> -->
+<article ng-repeat="post in projects" class="portfolio-projects">
+  <h3><a href="#!/portfolio/{{ projects.indexOf(post)}}">{{ post.title }}</a></h3>
+  <p>{{ post.exerpt }}</p>
+  <a href="#!/portfolio/{{ projects.indexOf(post)}}">Read more &rarr;</a>
+</article>

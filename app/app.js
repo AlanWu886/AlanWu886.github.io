@@ -6,7 +6,7 @@ angular.module('app', [
 	$routeProvider.when('/', {
 		templateUrl: 'views/post.html',
 		controller: 'PostController'
-	}).when('/post/:id', {
+	}).when('/portfolio/:id', {
 		templateUrl: 'views/singlepost.html',
 		controller: 'SinglePostController'
 	}).when('/page/:id', {
